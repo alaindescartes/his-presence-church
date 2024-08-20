@@ -5,14 +5,13 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import Footer from "./_components/Footer";
 import HeroSection from "./_components/HeroSection";
 
 export default function Home() {
   return (
     <div className="">
       <HeroSection />
-      <div className=" mt-3 flex flex-row justify-between animate-bounce-continuous">
+      <div className=" mt-3 flex flex-row justify-around animate-bounce-continuous">
         <div className="flex justify-center items-center flex-col p-3">
           <h1 className="text-center text-3xl font-semibold">SUNDAY SERVICE</h1>
           <p className="text-orange-400">11:00AM</p>

@@ -17,20 +17,7 @@ const HeaderContents = ({ closeSheet }) => {
     closeSheet();
 
     // Redirect based on the selected value
-    switch (value) {
-      case "women":
-        router.push("/women");
-        break;
-      case "men":
-        router.push("/men");
-        break;
-      case "children":
-        router.push("/children");
-        break;
-      default:
-        router.push("/");
-        break;
-    }
+    router.push(value);
   };
 
   const handleRedirection = (url) => {
@@ -48,29 +35,25 @@ const HeaderContents = ({ closeSheet }) => {
       </Button>
       <Button
         className="w-full bg-black text-white hover:bg-gray-800"
-        onClick={() => handleRedirection("/faqs")}
-      >
-        FAQS
-      </Button>
-      <Button
-        className="w-full bg-black text-white hover:bg-gray-800"
-        onClick={() => handleRedirection("/who-we-are")}
-      >
-        WHO WE ARE
-      </Button>
-
-      <Button
-        className="w-full bg-black text-white hover:bg-gray-800"
         onClick={() => handleRedirection("/giving")}
       >
         GIVING
       </Button>
-      <Button
-        className="w-full bg-black text-white hover:bg-gray-800"
-        onClick={() => handleRedirection("/contact-us")}
+
+      <Select
+        className="w-full bg-black text-white text-center"
+        onValueChange={handleSelectChange}
       >
-        CONTACT US
-      </Button>
+        <SelectTrigger className="w-full bg-black text-white font-bold">
+          <SelectValue placeholder="ABOUT US" />
+        </SelectTrigger>
+        <SelectContent className="bg-black text-white">
+          <SelectItem value="/who-we-are">WHO WE ARE</SelectItem>
+          <SelectItem value="/faqs">FAQS</SelectItem>
+          <SelectItem value="/contact-us">CONTACT US</SelectItem>
+        </SelectContent>
+      </Select>
+
       <Select
         className="w-full bg-black text-white text-center"
         onValueChange={handleSelectChange}
@@ -79,9 +62,9 @@ const HeaderContents = ({ closeSheet }) => {
           <SelectValue placeholder="MINISTRIES " />
         </SelectTrigger>
         <SelectContent className="bg-black text-white">
-          <SelectItem value="women">WOMEN</SelectItem>
-          <SelectItem value="men">MEN'S</SelectItem>
-          <SelectItem value="children">CHILDREN</SelectItem>
+          <SelectItem value="/women">WOMEN</SelectItem>
+          <SelectItem value="/men">MEN'S</SelectItem>
+          <SelectItem value="/children">CHILDREN</SelectItem>
         </SelectContent>
       </Select>
     </div>
