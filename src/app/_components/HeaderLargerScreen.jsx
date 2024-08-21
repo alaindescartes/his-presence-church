@@ -77,6 +77,7 @@ const HeaderLargeScreen = () => {
             <SelectItem value="/women">WOMEN</SelectItem>
             <SelectItem value="/men">MEN'S</SelectItem>
             <SelectItem value="/children">CHILDREN</SelectItem>
+            <SelectItem value="/students">STUDENTS</SelectItem>
           </SelectContent>
         </Select>
       </div>

@@ -28,7 +28,7 @@ const Header = () => {
       <div className="lg:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
-            <Button className="p-1 absolute z-10 m-2 animate-pulse font-extrabold bg-black">
+            <Button className="p-1 absolute z-50 m-2 animate-pulse font-extrabold bg-black">
               Menu
             </Button>
           </SheetTrigger>
