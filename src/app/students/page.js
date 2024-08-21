@@ -10,7 +10,7 @@ const Student = () => {
     <div>
       {/* Header Section with Image */}
       <div className="relative w-full h-[500px]">
-        <h2 className="absolute inset-0 flex items-center justify-center sm:justify-end sm:items-end sm:pb-4 text-white text-3xl sm:text-5xl font-bold font-serif animate-bounce z-10 ">
+        <h2 className="absolute inset-0 flex items-center justify-center sm:justify-end sm:items-end sm:pb-4 text-white text-3xl sm:text-5xl font-bold font-serif animate-bounce z-10 md:h-[100px] ">
           HPC | <span className="ml-2">STUDENTS</span>
         </h2>
         <Image

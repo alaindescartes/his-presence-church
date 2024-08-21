@@ -6,7 +6,7 @@ const Women = () => {
       {/* Header Image Section */}
       <div className="relative w-full h-[500px]">
         <div className="absolute inset-0 bg-black bg-opacity-30 z-10"></div>
-        <h2 className="absolute inset-0 flex items-center justify-center text-white text-5xl font-bold font-serif animate-bounce z-20 ">
+        <h2 className="absolute inset-0 flex items-center justify-center text-white text-5xl font-bold font-serif animate-bounce z-20 md:h-[100px] ">
           HPC | <span className="ml-2">WOMEN</span>
         </h2>
         <Image
