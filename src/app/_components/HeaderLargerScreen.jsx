@@ -36,7 +36,7 @@ const HeaderLargeScreen = () => {
       <div className="flex items-center space-x-4">
         <span>
           <Image
-            src="/Logo.jpg"
+            src="https://res.cloudinary.com/dmtmat9y5/image/upload/v1724610724/Logo_deassq.jpg"
             width={80}
             height={20}
             alt="logo"

@@ -50,7 +50,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <div className="flex-shrink-0 lg:mr-6 mb-4 lg:mb-0">
             <Image
-              src="/Live.jpg"
+              src="https://res.cloudinary.com/dmtmat9y5/image/upload/v1724610726/Live_niq3zm.jpg"
               width={300}
               height={300}
               alt="Pastor Live"
