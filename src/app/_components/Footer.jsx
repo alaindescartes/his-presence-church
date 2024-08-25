@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className="flex space-x-6">
           <a
-            href="https://facebook.com"
+            href="https://facebook.com/Wesige.Live"
             className="hover:text-blue-500 transition duration-300"
           >
             <FontAwesomeIcon
@@ -36,7 +36,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://youtube.com"
+            href="https://youtube.com/@pastorlive?si=X6uTOGREMtUSFpKD"
             className="hover:text-red-500 transition duration-300"
           >
             <FontAwesomeIcon
@@ -46,7 +46,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/p/B-rASNMggx7/?utm_source=ig_web_copy_link"
             className="hover:text-pink-500 transition duration-300"
           >
             <FontAwesomeIcon

@@ -25,7 +25,7 @@ const HeroSection = () => {
         </p>
 
         <Button asChild className="mt-6 bg-white text-black hover:bg-slate-400">
-          <Link href="#">JOIN US FOR CHURCH</Link>
+          <Link href="#schedule">JOIN US FOR CHURCH</Link>
         </Button>
       </div>
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>

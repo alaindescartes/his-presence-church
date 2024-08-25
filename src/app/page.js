@@ -5,44 +5,60 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
 import HeroSection from "./_components/HeroSection";
 
 export default function Home() {
   return (
     <div className="">
       <HeroSection />
-      <div className=" mt-3 flex flex-row justify-around animate-bounce-continuous">
+      <div
+        className=" mt-16 flex flex-row justify-around animate-bounce-continuous pt-32 pb-32"
+        id="schedule"
+      >
         <div className="flex justify-center items-center flex-col p-3">
-          <h1 className="text-center text-3xl font-semibold">SUNDAY SERVICE</h1>
-          <p className="text-orange-400">11:00AM</p>
+          <h1 className="text-center text-5xl font-semibold">SUNDAY SERVICE</h1>
+          <p className="text-orange-400 text-2xl">11:00AM</p>
         </div>
         <div className="flex justify-center items-center flex-col p-3">
-          <h1 className="text-center text-3xl font-semibold">LOCATION</h1>
-          <p className="text-blue-400"> 1145 St.Albert Trail in St.Albert</p>
+          <h1 className="text-center text-5xl font-semibold">LOCATION</h1>
+          <p className="text-blue-400 text-2xl">
+            {" "}
+            1145 St.Albert Trail in St.Albert
+          </p>
         </div>
       </div>
-      <div className="mt-8 text-center">
-        <h1 className="text-3xl font-semibold mb-4">CONNECT WITH US</h1>
-        <div className="flex justify-center space-x-8">
-          <span className="text-4xl text-blue-600 hover:text-blue-800 transition duration-300 ">
-            <FontAwesomeIcon
-              icon={faFacebook}
-              className="w-[60px] h-[60px] hover:scale-110"
-            />
-          </span>
-          <span className="text-4xl text-pink-500 hover:text-pink-700 transition duration-300">
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="w-[60px] h-[60px] hover:scale-110"
-            />
-          </span>
-          <span className="text-4xl text-red-600 hover:text-red-800 transition duration-300">
-            <FontAwesomeIcon
-              icon={faYoutube}
-              className="w-[60px] h-[60px] hover:scale-110"
-            />
-          </span>
-        </div>
+
+      <div className="flex justify-center space-x-8">
+        <Link
+          href="https://facebook.com/Wesige.Live"
+          className="text-4xl text-blue-600 hover:text-blue-800 transition duration-300"
+        >
+          <FontAwesomeIcon
+            icon={faFacebook}
+            className="w-[60px] h-[60px] hover:scale-110"
+          />
+        </Link>
+
+        <Link
+          href="https://www.instagram.com/p/B-rASNMggx7/?utm_source=ig_web_copy_link"
+          className="text-4xl text-pink-500 hover:text-pink-700 transition duration-300"
+        >
+          <FontAwesomeIcon
+            icon={faInstagram}
+            className="w-[60px] h-[60px] hover:scale-110"
+          />
+        </Link>
+
+        <Link
+          href="https://youtube.com/@pastorlive?si=X6uTOGREMtUSFpKD"
+          className="text-4xl text-red-600 hover:text-red-800 transition duration-300"
+        >
+          <FontAwesomeIcon
+            icon={faYoutube}
+            className="w-[60px] h-[60px] hover:scale-110"
+          />
+        </Link>
       </div>
 
       <div className="mt-8 p-3">
