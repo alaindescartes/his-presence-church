@@ -13,17 +13,20 @@ export default function Home() {
     <div className="">
       <HeroSection />
       <div
-        className=" mt-16 flex flex-row justify-around animate-bounce-continuous pt-32 pb-32"
+        className="mt-16 flex flex-col md:flex-row justify-around items-center animate-bounce-continuous py-16 md:py-32"
         id="schedule"
       >
-        <div className="flex justify-center items-center flex-col p-3">
-          <h1 className="text-center text-5xl font-semibold">SUNDAY SERVICE</h1>
-          <p className="text-orange-400 text-2xl">11:00AM</p>
+        <div className="flex justify-center items-center flex-col p-3 mb-8 md:mb-0">
+          <h1 className="text-center text-3xl md:text-5xl font-semibold">
+            SUNDAY SERVICE
+          </h1>
+          <p className="text-orange-400 text-xl md:text-2xl">11:00AM</p>
         </div>
         <div className="flex justify-center items-center flex-col p-3">
-          <h1 className="text-center text-5xl font-semibold">LOCATION</h1>
-          <p className="text-blue-400 text-2xl">
-            {" "}
+          <h1 className="text-center text-3xl md:text-5xl font-semibold">
+            LOCATION
+          </h1>
+          <p className="text-blue-400 text-xl md:text-2xl">
             1145 St.Albert Trail in St.Albert
           </p>
         </div>

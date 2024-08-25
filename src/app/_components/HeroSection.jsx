@@ -11,7 +11,7 @@ const HeroSection = () => {
         height={500}
         alt="welcome image of people worshipping"
         priority
-        style={{ width: "auto" }}
+        className="w-full "
       />
       <div className="absolute inset-0 bg-black bg-opacity-10 flex flex-col items-center justify-center text-center text-white">
         <h1 className="text-4xl font-bold">IGNITING FAITH</h1>
@@ -24,7 +24,10 @@ const HeroSection = () => {
           </i>
         </p>
 
-        <Button asChild className="mt-6 bg-white text-black hover:bg-slate-400">
+        <Button
+          asChild
+          className="mt-6 bg-white text-black hover:bg-slate-400 hidden md:flex"
+        >
           <Link href="#schedule">JOIN US FOR CHURCH</Link>
         </Button>
       </div>
