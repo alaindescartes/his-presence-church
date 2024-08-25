@@ -38,7 +38,7 @@ const Women = () => {
             for you!
           </p>
           <h2 className="text-3xl font-semibold text-gray-900 mb-6">
-            JOIN A WOMEN'S Small Group
+            JOIN A WOMEN&apos;S Small Group
           </h2>
           <p className="text-lg text-gray-800 leading-relaxed mb-6">
             Small Groups offer a safe and supportive space for you to grow in

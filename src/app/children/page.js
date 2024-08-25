@@ -56,9 +56,9 @@ const Children = () => {
           FIRST TIME FAMILY?
         </h1>
         <p className="text-lg md:text-xl font-medium leading-relaxed mb-8 text-center">
-          Preregistering your child for kids' ministry allows you to save time
-          during check-in, ensuring a quick and hassle-free drop-off. It also
-          gives you peace of mind knowing that we have all the necessary
+          Preregistering your child for kids&apos; ministry allows you to save
+          time during check-in, ensuring a quick and hassle-free drop-off. It
+          also gives you peace of mind knowing that we have all the necessary
           information to provide the best experience for your child.
         </p>
 

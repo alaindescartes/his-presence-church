@@ -61,15 +61,15 @@ export default function Home() {
             <p className="mb-4 text-lg leading-relaxed font-serif">
               Meet lead Pastor Live Wesige, the founder of His Presence Church.
               He is a dedicated servant of God with a lifelong commitment to
-              spiritual leadership and community building. Pastor Live's journey
-              in faith began at a nightclub in Kigali back in 1999, where his
-              profound encounter with God set the course for his future. Since
-              then, he has devoted over two decades to ministry, touching lives
-              and nurturing faith across continents. He is a visionary leader, a
-              sought after conference speaker, published author, life coach and
-              family man who carries a dynamic anointing and a vibrant prophetic
-              edge whose reach goes beyond the walls of His Presence Church
-              through his social media platforms.
+              spiritual leadership and community building. Pastor Live&apos;s
+              journey in faith began at a nightclub in Kigali back in 1999,
+              where his profound encounter with God set the course for his
+              future. Since then, he has devoted over two decades to ministry,
+              touching lives and nurturing faith across continents. He is a
+              visionary leader, a sought after conference speaker, published
+              author, life coach, and family man who carries a dynamic anointing
+              and a vibrant prophetic edge whose reach goes beyond the walls of
+              His Presence Church through his social media platforms.
             </p>
             <i className="block text-gray-700 text-sm italic border-l-4 border-orange-400 bg-gray-100 p-4 rounded-md">
               I pray you stand on the word not with the world, thus choose a

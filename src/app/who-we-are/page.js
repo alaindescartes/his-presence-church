@@ -7,9 +7,9 @@ const AboutUs = () => {
       <div className="mb-8 p-6 bg-white border-l-4 border-blue-500 rounded shadow-sm">
         <p className="text-lg text-gray-700">
           HPC was founded in 2024 by Pastor Live Wesige and his wife Claire
-          Uwishema in St.Albert, Alberta. With a promise from God and a passion
+          Uwishema in St. Albert, Alberta. With a promise from God and a passion
           for reaching this community, we are Christians who are passionate
-          about seeking God’s presence and making it known and felt in our
+          about seeking God&apos;s presence and making it known and felt in our
           society. HPC is a Non-Denominational, Bible Based, Spirit-Filled,
           Faith Filled, Prophetic, Evangelical, Contemporary, Loving & Friendly.
         </p>
@@ -74,13 +74,14 @@ const AboutUs = () => {
           Atonement and Salvation
         </h3>
         <p className="mt-2 text-lg text-gray-700">
-          Christ's vicarious death on the cross paid the penalty for the sins of
-          the whole world, but its benefits must be appropriated and are only
-          applicable to those who believe and receive Jesus Christ as their Lord
-          and Savior. Salvation is a free gift of God and not a result of our
-          good works or any human effort. We believe the Lord Jesus Christ is
-          the only one who can reconcile us to God; therefore, we must repent,
-          have faith in Jesus Christ, submit to His will, and be saved by grace.
+          Christ&apos;s vicarious death on the cross paid the penalty for the
+          sins of the whole world, but its benefits must be appropriated and are
+          only applicable to those who believe and receive Jesus Christ as their
+          Lord and Savior. Salvation is a free gift of God and not a result of
+          our good works or any human effort. We believe the Lord Jesus Christ
+          is the only one who can reconcile us to God; therefore, we must
+          repent, have faith in Jesus Christ, submit to His will, and be saved
+          by grace.
           <br />
           <span className="text-sm text-gray-500">
             (John 14:6, Ephesians 2:8, Luke 24:47, Titus 2:11)
@@ -90,11 +91,11 @@ const AboutUs = () => {
 
       <div className="mb-6 p-6 bg-white border-l-4 border-blue-500 rounded shadow-sm">
         <h3 className="text-2xl font-semibold text-gray-800">
-          Baptism and the Lord's Supper
+          Baptism and the Lord&apos;s Supper
         </h3>
         <p className="mt-2 text-lg text-gray-700">
           Baptism is the outward sign of what God has already done in the
-          individual's life and is a testimony to all that the person now
+          individual&apos;s life and is a testimony to all that the person now
           belongs to Jesus. It is identification with Jesus and is effected in
           the name of the Father, the Son, and the Holy Spirit and is done by
           immersion into water like our Lord Jesus Christ. The second baptism
@@ -105,10 +106,10 @@ const AboutUs = () => {
           <span className="text-sm text-gray-500">(Acts 1:4, John 20:22)</span>
         </p>
         <p className="mt-4 text-lg text-gray-700">
-          The Lord’s Supper is a commemoration of the death of the Lord and is
-          done in remembrance of Him until He comes again; it is a sign of our
-          participation in Him. Both institutions are restricted to those who
-          are believers.
+          The Lord&apos;s Supper is a commemoration of the death of the Lord and
+          is done in remembrance of Him until He comes again; it is a sign of
+          our participation in Him. Both institutions are restricted to those
+          who are believers.
           <br />
           <span className="text-sm text-gray-500">
             (1 Corinthians 11:24-25)

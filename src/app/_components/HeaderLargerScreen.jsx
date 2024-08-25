@@ -75,7 +75,7 @@ const HeaderLargeScreen = () => {
           </SelectTrigger>
           <SelectContent className="bg-black text-white">
             <SelectItem value="/women">WOMEN</SelectItem>
-            <SelectItem value="/men">MEN'S</SelectItem>
+            <SelectItem value="/men">MEN&apos;S</SelectItem>
             <SelectItem value="/children">CHILDREN</SelectItem>
             <SelectItem value="/students">STUDENTS</SelectItem>
           </SelectContent>

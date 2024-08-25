@@ -18,11 +18,12 @@ const HeroSection = () => {
         <h1 className="text-4xl font-bold">INSPIRING LOVE</h1>
         <p className="mt-4">
           <i>
-            "Now thanks be to God who always leads us in triumph in Christ, and
-            through us diffuses the fragrance of His knowledge in every place."
-            2 Corinthians 2:14
+            &quot;Now thanks be to God who always leads us in triumph in Christ,
+            and through us diffuses the fragrance of His knowledge in every
+            place.&quot; 2 Corinthians 2:14
           </i>
         </p>
+
         <Button asChild className="mt-6 bg-white text-black hover:bg-slate-400">
           <Link href="#">JOIN US FOR CHURCH</Link>
         </Button>
