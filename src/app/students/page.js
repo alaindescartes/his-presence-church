@@ -14,12 +14,12 @@ const Student = () => {
           HPC | <span className="ml-2">STUDENTS</span>
         </h2>
         <Image
-          src="/students.jpg"
+          src="https://res.cloudinary.com/dmtmat9y5/image/upload/v1724610734/students_evzyeo.jpg"
           alt="Students"
-          layout="fill"
-          objectFit="cover"
+          fill
           quality={100}
-          className="z-0"
+          className="z-0 object-cover"
+          priority
         />
       </div>
 

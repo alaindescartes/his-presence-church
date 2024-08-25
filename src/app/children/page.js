@@ -12,13 +12,12 @@ const Children = () => {
           HPC Kids
         </h1>
         <Image
-          src="/kids.jpg"
-          layout="responsive"
+          src="https://res.cloudinary.com/dmtmat9y5/image/upload/v1724610740/kids_o5nitq.jpg"
           width={1920}
-          height={1080}
+          height={200}
           alt="Picture of children smiling"
           priority
-          className="w-full h-auto object-cover rounded-b-lg shadow-xl"
+          className="w-full h-[500px] object-cover rounded-b-lg shadow-xl"
         />
       </div>
 

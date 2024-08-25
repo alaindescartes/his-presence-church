@@ -6,12 +6,12 @@ const HeroSection = () => {
   return (
     <div className="relative w-full max-w-full">
       <Image
-        src="/worship.jpg"
-        layout="responsive"
-        width={500}
+        src="https://res.cloudinary.com/dmtmat9y5/image/upload/v1724610732/worship_slgqj8.jpg"
+        width={1500}
         height={500}
         alt="welcome image of people worshipping"
         priority
+        style={{ width: "auto" }}
       />
       <div className="absolute inset-0 bg-black bg-opacity-10 flex flex-col items-center justify-center text-center text-white">
         <h1 className="text-4xl font-bold">IGNITING FAITH</h1>

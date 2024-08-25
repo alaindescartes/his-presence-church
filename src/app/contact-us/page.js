@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 const ContactUs = () => {
   return (
@@ -13,18 +12,6 @@ const ContactUs = () => {
       <p className="text-center text-gray-600 mb-6">
         1145 St.Albert Trail, St.Albert, AB
       </p>
-      <div className="text-center mb-6">
-        <Button asChild>
-          <Link
-            href="https://www.google.com/maps?q=1145+St+Albert+Trail,+Edmonton,+AB,+Canada"
-            className="text-white bg-black hover:bg-blue-700 px-4 py-2 rounded"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            DIRECTIONS
-          </Link>
-        </Button>
-      </div>
 
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-gray-700">OFFICE HOURS</h2>

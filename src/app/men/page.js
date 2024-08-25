@@ -3,17 +3,16 @@ import Image from "next/image";
 const Men = () => {
   return (
     <div>
-      <div className="w-full">
+      <div className="relative w-full h-[500px]">
         <Image
-          src="/men.jpg"
-          layout="responsive"
-          width={1920}
-          height={1080}
+          src="https://res.cloudinary.com/dmtmat9y5/image/upload/v1724613118/men2_m8gl1d.jpg"
+          fill
           alt="Picture of women smiling"
           priority
-          className="w-full h-auto"
+          className="object-cover"
         />
       </div>
+
       <div className="max-w-4xl mx-auto p-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg shadow-2xl font-serif transform transition duration-500 hover:scale-105">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-8 animate-fadeIn">
