@@ -10,7 +10,7 @@ const ContactUs = () => {
         HIS PRESENCE CHURCH
       </h2>
       <p className="text-center text-gray-600 mb-6">
-        1145 St.Albert Trail, St.Albert, AB
+        70 Edgefield, St.Albert, AB
       </p>
 
       <div className="mb-6">
@@ -19,11 +19,11 @@ const ContactUs = () => {
       </div>
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-gray-700">PHONE</h2>
-        <p className="text-gray-600">XXX-XXXX-XXXX</p>
+        <p className="text-gray-600">780-544-5087</p>
       </div>
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-gray-700">EMAIL</h2>
-        <p className="text-gray-600">hisPresenceChurch@gmail.com</p>
+        <p className="text-gray-600">info@hpconline.com</p>
       </div>
 
       <form className="space-y-4">

@@ -15,6 +15,7 @@ const CheckoutForm = () => {
     email: "",
     amount: 20.0,
   });
+  const [donationType, setDonationType] = useState("Offerings"); // Default option
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -22,6 +23,10 @@ const CheckoutForm = () => {
       ...formValues,
       [name]: value,
     });
+  };
+
+  const handleDonationTypeChange = (e) => {
+    setDonationType(e.target.value);
   };
 
   const handleSubmit = async (event) => {
@@ -40,7 +45,10 @@ const CheckoutForm = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ amount: donationAmount }), // Amount in cents
+        body: JSON.stringify({
+          amount: donationAmount,
+          donationType, // Include the donation type in the request
+        }),
       }
     ).then((res) => res.json());
 
@@ -74,6 +82,7 @@ const CheckoutForm = () => {
       amount: 20.0,
     });
     setDonationAmount(2000);
+    setDonationType("Offerings");
     elements.getElement(CardElement).clear();
   };
 
@@ -147,6 +156,48 @@ const CheckoutForm = () => {
           onChange={(e) => setDonationAmount(e.target.value * 100)} // Convert dollars to cents
           required
         />
+      </div>
+
+      <div className="mb-4">
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Donation Type
+        </label>
+        <div className="flex flex-col">
+          <label className="inline-flex items-center mb-2">
+            <input
+              type="radio"
+              name="donationType"
+              value="Offerings"
+              checked={donationType === "Offerings"}
+              onChange={handleDonationTypeChange}
+              className="form-radio h-4 w-4 text-blue-600"
+              required
+            />
+            <span className="ml-2">Offerings</span>
+          </label>
+          <label className="inline-flex items-center mb-2">
+            <input
+              type="radio"
+              name="donationType"
+              value="Tithes"
+              checked={donationType === "Tithes"}
+              onChange={handleDonationTypeChange}
+              className="form-radio h-4 w-4 text-blue-600"
+            />
+            <span className="ml-2">Tithes</span>
+          </label>
+          <label className="inline-flex items-center">
+            <input
+              type="radio"
+              name="donationType"
+              value="Mission Support"
+              checked={donationType === "Mission Support"}
+              onChange={handleDonationTypeChange}
+              className="form-radio h-4 w-4 text-blue-600"
+            />
+            <span className="ml-2">Mission Support</span>
+          </label>
+        </div>
       </div>
 
       <div className="mb-6">

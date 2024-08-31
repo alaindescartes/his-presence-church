@@ -48,7 +48,7 @@ const Giving = () => {
           style={{ animationDuration: "2s" }}
           onClick={() => router.push("/checkout")}
         >
-          Give Now
+          Give
         </Button>
       </div>
       <div className="mb-8 p-6 border-l-4 border-red-400 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">

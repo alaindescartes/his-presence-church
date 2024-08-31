@@ -45,8 +45,7 @@ const Children = () => {
           following services:
         </p>
         <p className="flex flex-col mt-6 space-y-2 text-lg md:text-xl font-semibold">
-          <span>Saturdays 5:00pm</span>
-          <span>Sundays 8:15am | 9:45am | 11:30am</span>
+          <span>Sundays 11:45am</span>
         </p>
       </div>
 
